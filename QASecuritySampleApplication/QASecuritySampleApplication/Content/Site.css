@@ -1,0 +1,184 @@
+﻿.extra-padding {
+    padding: 24px !important;
+}
+
+.default-max-width {
+    max-width: 1000px;
+}
+
+.default-page-header {
+    /*background-color: #eeeeee !important;*/
+}
+
+.default-toolbar {
+    /*background-color: #eeeeee !important;
+    color: black;
+    color: black !important;*/
+}
+
+
+md-list {
+    padding: 0 !important;
+}
+
+md-list-item.active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+	color: black;
+	background: #eee;
+	border: 1px solid red;
+	border-radius: 2px;
+	margin: -1px;
+}
+
+.highlight:empty {
+	display: none;
+}
+
+md-dialog.md-dialog-fullscreen {
+    /*max-height: 100%;*/
+    height: 100%;
+}
+
+md-tabs.md-default-theme md-tabs-wrapper, md-tabs md-tabs-wrapper {
+    border-color: rgb(83,109,254);
+}
+
+md-tabs-wrapper, md-tabs md-tabs-wrapper {
+    border-width: 0 0 2px !important;
+}
+
+md-ink-bar {
+    height: 4px; 
+}
+
+body md-tooltip {
+    z-index: 10000;
+}
+
+md-badge {
+  position: absolute;
+  top: 2px;
+  margin: -2px 0 0 -2px;
+  background-color: #EF4036;
+  color: white;
+  padding: 1px 4px;
+  border-radius: 10px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+/* light theme */
+/* dark theme */
+/* main colors */
+div.top-menu-toobar {
+  color: white !important; }
+
+md-menu-content {
+  background-color: white !important;}
+  md-menu-content.top-menu-subitem {
+    background-color: #037abd !important; }
+  md-menu-content md-content {
+    background-color: #037abd !important; }
+    md-menu-content md-content md-card {
+      background-color: #037abd; }
+      md-menu-content md-content md-card md-card-title md-card-title-text {
+        color: white; }
+        md-menu-content md-content md-card md-card-title md-card-title-text a span {
+          color: white !important; }
+      md-menu-content md-content md-card md-card-content p {
+        color: rgba(255, 255, 255, 0.7) !important; }
+
+/* light theme */
+/* dark theme */
+/* main colors */
+md-list md-list-item.active {
+  background: #c1e7fd; }
+
+/* light theme */
+/* dark theme */
+/* main colors */
+md-container.breadcrumb label.main-item {
+  color: #037abd; }
+
+/* light theme */
+/* dark theme */
+/* main colors */
+md-container.search-toolbar-tools {
+  background-color: #eeeeee !important; }
+  md-container.search-toolbar-tools input.search-input {
+    border-color: #c5c5c5; }
+  md-container.search-toolbar-tools button {
+    background-color: #139dea !important; }
+    md-container.search-toolbar-tools button md-icon {
+      color: white !important; }
+
+/* light theme */
+/* dark theme */
+/* main colors */
+md-tabs.md-default-theme md-tabs-wrapper, md-tabs md-tabs-wrapper {
+  border-color: #00548e; }
+  md-tabs.md-default-theme md-tabs-wrapper md-tab-item, md-tabs md-tabs-wrapper md-tab-item {
+    border-color: #00548e; }
+
+/* light theme */
+/* dark theme */
+/* main colors */
+/* Main page */
+/* Form & content */
+/* Toolbar */
+md-input-container label {
+  color: #969696 !important; }
+
+@media (min-width: 960px) {
+  div.form-fields {
+    max-width: 450px !important; } }
+
+md-dialog-content md-tab-content {
+  max-width: 450px !important; }
+
+/* Main page */
+/* Form & content */
+/* Toolbar */
+/* light theme */
+/* dark theme */
+/* main colors */
+md-container.md-toolbar-tools {
+  height: 40px;
+  padding-left: 20px; }
+
+md-toolbar.action-toolbar {
+  height: 40px;
+  min-height: 40px; }
+  md-toolbar.action-toolbar.toolbar-vertical-offset {
+    height: 0;
+    min-height: 0; }
+
+md-toolbar.action-toolbar md-container.md-toolbar-tools {
+  padding-right: 40px; }
+  md-toolbar.action-toolbar md-container.md-toolbar-tools button.md-icon-button {
+    margin-top: -40px; }
+    md-toolbar.action-toolbar md-container.md-toolbar-tools button.md-icon-button:not(:disabled) md-icon {
+      color: rgba(0, 0, 0, 0.87); }
+
+md-content.default-page-header {
+  height: 40px;
+  overflow: hidden; }
+
+.right-content-padding {
+    padding: 0 40px 0 40px;
+}
+
+.nav-menu-description {
+    background-color: white;
+    color: rgba(0,0,0,0.87);
+}
+
+.nav-menu-description h3 {
+    margin: 0; 
+    width: 120px; 
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+﻿/*@media print {*/
+    .no_print {
+        display: none !important;
+    }
+
+    body {
+        zoom: 0.25;
+        -moz-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        padding: 0 !important;
+        margin: 0 !important;
+        /*height: 1080px;
+        width: 1920px;*/
+        overflow: hidden !important;
+    }
+
+    body > div {
+        padding:0 !important;
+        margin:0 !important;
+        /*height: 1080px;
+        width: 1920px;*/
+        overflow:hidden !important;
+    }
+/*}*/
+ 
+/*@page {
+    /*size: 1920px 1080px;
+    margin: 0;
+}*/

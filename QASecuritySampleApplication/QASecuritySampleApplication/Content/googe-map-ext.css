@@ -1,0 +1,64 @@
+﻿.fc-map-controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#fc-map-searchbox {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+.fcMapItemLabel {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 2px;
+}
+
+
+.fcMapItemHighlight {
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+    -webkit-animation: circle 2s ease-in-out infinite;
+    animation: circle 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes circle {
+    0% {
+        -webkit-transform: scale(0.5);
+        border: 1px solid;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(2);
+        border: 1px solid lightyellow;
+        opacity: 0;
+    }
+}
+
+@keyframes circle {
+    0% {
+        transform: scale(0.5);
+        border: 1px solid;
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+        border: 1px solid lightyellow;
+    }
+}
